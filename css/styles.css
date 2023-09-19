@@ -1,7 +1,23 @@
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: red;
+  background-color: black;
+}
+nav a {
+  color: white;
+  font-family: OCRA;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: OCRA;
+  src: url(../lib/fonts/OCRAEXT.TTF);
+}
+html {
+  font-family: OCRA;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  background-color: black;
 }
 
 * {
@@ -18,13 +34,37 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
+.hero-parallax-wrap {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.hero-parallax-wrap .parallax-item {
+  background-image: url(../img/BG-Portfolio.gif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
 }
 
 .content {
-  min-height: 600px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  z-index: 1;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
