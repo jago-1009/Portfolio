@@ -1,0 +1,23 @@
+.contact-wrapper {
+    padding-top:20px;
+    color:white;
+    font-family: OCRA;
+    h1{
+        font-size: 70px;
+        display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        
+    }
+    p {
+       text-align: center;
+    }
+    li {
+        text-align: center;
+        padding:10px;
+        a {
+            text-decoration: none;
+            color:white;
+        };
+    }
+}

@@ -1,0 +1,59 @@
+.work-header {
+color:white;
+font-family: OCRA;
+text-align: center;
+padding-top:100px;
+font-size: 70px;
+}
+#projects-wrapper {
+    flex-direction: column;
+height:100vh;    
+    display: flex;
+    max-width:100%;
+   
+
+    font-family: OCRA;
+    .work-line-1 {
+        padding-bottom:20px;
+        width:100%;
+        z-index: 12;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       .card1 {
+      
+                width: 400px;
+                height: 250px;
+                background-color: white;
+            
+       }
+       .card2 {
+       
+    width: 400px;
+        height: 250px;
+            background-color: white;
+       }
+    }
+    .work-line-2 {
+        width:100%;
+        z-index: 12;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .card1 {
+       
+        width: 400px;
+            height: 250px;
+                background-color: white;
+        
+            }
+        
+            .card2 {
+               
+            width: 400px;
+                height: 250px;
+                background-color: white;
+            }
+    }
+}
