@@ -1,0 +1,77 @@
+.background-props {
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.tour-page {
+    
+    margin-bottom:55px;
+}
+.tour-component {
+            
+        
+    height:$tour-banner-height;
+    width:$tour-banner-width;
+    background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+.infoholder {
+color:$site-white;
+width:80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+}
+
+
+.israel-pic {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/tour-01.jpg);
+}
+.usa-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-02.jpg);
+}
+.australia-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-03.jpg);
+}
+.nz-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-04.jpg);
+}
+.france-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-05.jpg);
+}
+.egypt-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-06.jpg);
+}
+.japan-pic{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-07.jpg);
+}
+.canada-pic{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-08.jpg);
+}
+.uae-pic{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-09.jpg);
+}
+
+@media (max-width: 860px) {
+   .tour-component {
+    margin-bottom:20px;
+   }
+
+}
+@media (max-width: 600px) {
+    .tour-component {
+        margin-bottom: 70px;
+    }
+
+}
+@media (max-width: 600px) {
+    .tour-component {
+        .infoholder {
+            font-size: 125%;
+        }
+    }
+
+}

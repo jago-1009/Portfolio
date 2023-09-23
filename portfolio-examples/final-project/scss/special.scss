@@ -1,0 +1,80 @@
+.special-offers {
+margin: 0 auto;
+    max-width: 1028px;
+   
+    min-height: 330px;
+
+.offers-title {
+        margin-top: 180px;
+        margin-left:25px;
+
+        .border-bottom {
+            width:200px;
+            border-bottom: solid 2px $site-black;
+        }
+        h1 {
+            font-family: 'Proxima Nova Thin';
+        }
+    }
+.offer-wrap {
+display: flex;
+    .offer-left{
+    margin-left: 20px;
+        margin-top:60px;
+        max-width:199px;
+        height:287px;
+            img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+        
+    }
+    .offer-right {
+        .offer-title {
+            h1 {
+                margin-top:20px;
+                font-weight: lighter;
+            font-family: 'Proxima Nova Thin';
+            font-size: 30px;
+            }
+            margin-top:-36px;
+            .discount-price {
+                color:#FF7D38;
+                    position: relative;
+                        right: -250px;
+                        top: 45px;
+                        font-family: 'Proxima Nova Thin';
+                        font-size: 12px;
+            }
+            .border-bottom {
+                width:196px;
+                border-bottom: solid 2px $site-black;
+                margin-bottom:20px;
+            }
+        }
+        max-width:290px;
+        margin-top:55px;
+        padding-left:20px;
+        p {
+            height:131px;
+           font-weight: light;
+            font-family: 'Gill Sans Nova';
+            margin-bottom:52px;
+        }
+        a {height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: "Gill Sans";
+            text-align: center;
+            width: 133px;
+            background-color: #79ADDC;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;}
+    }
+}
+}

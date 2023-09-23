@@ -1,0 +1,189 @@
+@mixin nav-hold($color:$site-white, $logo:$logo-white) {
+            max-width: $site-nav-width;
+            height: $site-nav-height;
+            background-color: rgba(0, 0, 0, 0);
+            border-bottom: solid $color 2px;
+            display: flex;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding-top: 25px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+    
+            .logo {
+                position: static;
+                margin-top: auto;
+                display: flex;
+                align-items: center;
+                max-width: 100%;
+                width: 100px;
+                height: 100px;
+                background-image: $logo;
+                background-size: contain;
+                background-repeat: no-repeat;
+    
+            }
+                          .linkholder {
+                              max-width: 600px;
+                              justify-content: right;
+            
+            
+                              a {
+                                  text-decoration: none;
+                                  color: $color;
+                                  border-right: solid $site-blue 1px;
+                                  padding-right: 15px;
+                                  padding-left: 15px;
+                                  font-family: 'Gill Sans', serif;
+                                  letter-spacing: 3px;
+                                  font-size: 13px;
+                              }
+}
+
+@media (max-width:975px) {
+    .nav-holder {
+        .logo {
+            margin-left: 20px;
+        }
+    }
+}
+}
+
+
+@mixin hero-indiv($background-image) {
+            position: relative;
+            max-width: $site-nav-width; //can also be $site-width
+            height: 413px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), $background-image;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items:center;
+            justify-content:left;
+            margin: 0 auto;
+            margin-top: 10%;
+            margin-bottom: 5%;
+    
+            h1 {
+                position: absolute;
+                top: 0;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-family: 'Proxima Nova Thin';
+                font-weight: lighter;
+                letter-spacing: 0px;
+                color: $site-white;
+                font-size: 80px;
+                margin-bottom: 30px;
+                font-stretch: extra-condensed;
+                
+            }
+            p {
+                font-size: 30px;
+                position:absolute;
+                top:90%;
+                right:0;
+                color:$site-white;
+                font-family:'Proxima Nova Thin';
+                font-stretch: extra-condensed;
+                width:fit-content;
+            }
+            @media (max-width:1000px) {
+                h1 {
+                    top:-66.5px;
+                }
+                p{
+                    top:100px;
+                    right:-33%;
+                }
+            }
+            
+}
+    
+@mixin body-indiv($tour-image-1,$tour-image-2,$tour-image-3) {
+    
+    .tour-images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width:$site-nav-width;
+        height:200px;
+        margin:0 auto;
+            .tour-image-1 {
+                margin-top:100px;
+                background-image: $tour-image-1;
+                width: 298px;
+                height: 347px;
+                background-size: cover;
+            }
+    
+            .tour-image-2 {
+                margin-top: 100px;
+                background-image: $tour-image-2;
+                width: 298px;
+                height: 347px;
+                background-size: cover;
+            }
+    
+            .tour-image-3 {
+                margin-top: 100px;
+                background-image: $tour-image-3;
+                width: 298px;
+                height: 347px;
+                background-size:cover;
+            }
+        }
+        .itinerary {
+            h1 {
+                font-family: 'Proxima Nova Thin';
+                font-size:60px;
+            }
+            p {
+                display: flex;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                font-family: 'Gill Sans';
+                font-size:16px;
+                max-width: 100%;
+                
+            }
+            .border-bottom {
+                width:171px;
+                border-bottom: solid 1px $site-black;
+            }
+            display: flex;
+            width:$site-nav-width;
+            padding-top: 15%;
+            margin:0 auto;
+            text-align: left;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+                @media (max-width:1000px) {
+                    .tour-images {
+                        .tour-image-1, .tour-image-2, .tour-image-3 {
+                            display: flex;
+                            flex-direction: column;
+                            width:80%;
+                            margin-right:20px;
+                            padding-bottom: 20px;
+                            margin-left:20px;
+                        };
+                    }
+                    .itinerary {
+                       margin-left:-140px;
+                        margin-top:10%;
+                       .day-1,.day-2,.day-3 {
+                        p {
+                            inline-size:500px;
+                           overflow-wrap:break-word;
+                        }
+                    }
+                    }
+                }
+}

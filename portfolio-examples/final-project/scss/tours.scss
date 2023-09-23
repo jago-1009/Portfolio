@@ -1,0 +1,78 @@
+
+    .hero-tours {
+        max-width: 77.5%; //can also be $site-width
+        height:200px;
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/tours-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       margin:0 auto;
+       margin-top: 150px;
+       margin-bottom: 50px;
+       h1 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family:'Proxima Nova Thin';
+        font-weight: lighter;
+        font-style: italic;
+        color:$site-white;
+        font-size:60px;
+        margin-bottom: 30px;
+       }
+}
+
+
+.tours{
+    
+
+    display: flex;
+    .line1 {
+    h1 {
+        display:inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Proxima Nova';
+        font-size: 60px;
+        font-weight:lighter;
+    }
+
+    p {
+        text-transform: uppercase;
+        font-family: 'Proxima Nova';
+    }
+
+    max-width:818px;
+    min-height:$tour-banner-height;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size:30px;
+    margin: 0 auto;
+
+    .infoholder {
+        a {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: 'Gill Sans';
+            text-align: center;
+            width: 90px;
+            background-color: $site-blue;
+            color: $site-white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+   
+}
+}
+.footer-tours {
+    margin-top:45px;
+}

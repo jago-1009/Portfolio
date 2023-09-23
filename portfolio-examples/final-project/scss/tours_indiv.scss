@@ -1,0 +1,62 @@
+.hero-israel {
+    
+    @include hero-indiv(url(../img/tour-01.jpg));
+}
+.body-israel {
+    @include body-indiv(url(../img/tour-israel/israel-tour-01.jpg), url(../img/tour-israel/israel-tour-02.jpg), url(../img/tour-israel/israel-tour-03.jpg));
+}
+.hero-usa {
+    @include hero-indiv(url(../img/tour-02.jpg));
+}
+.body-usa {
+@include body-indiv(url(../img/tour-usa/usa-tour-01.jpg), url(../img/tour-usa/usa-tour-02.jpg), url(../img/tour-usa/usa-tour-03.jpg));
+}
+.hero-aus {
+    @include hero-indiv(url(../img/tour-03.jpg));
+}
+
+.body-aus {
+    @include body-indiv(url(../img/tour-aus/aus-tour-01.jpg), url(../img/tour-aus/aus-tour-02.jpg), url(../img/tour-aus/aus-tour-03.jpg));
+}
+.hero-nz {
+    @include hero-indiv(url(../img/tour-04.jpg));
+}
+
+.body-nz {
+    @include body-indiv(url(../img/tour-nz/nz-tour-01.jpg), url(../img/tour-nz/nz-tour-02.jpg), url(../img/tour-nz/nz-tour-03.jpg));
+}
+.hero-france {
+    @include hero-indiv(url(../img/tour-05.jpg));
+}
+
+.body-france {
+    @include body-indiv(url(../img/tour-france/france-tour-01.jpg), url(../img/tour-france/france-tour-02.jpg), url(../img/tour-france/france-tour-03.jpg));
+}
+.hero-egypt {
+    @include hero-indiv(url(../img/tour-06.jpg));
+}
+
+.body-egypt {
+    @include body-indiv(url(../img/tour-egypt/egypt-tour-01.jpg), url(../img/tour-egypt/egypt-tour-02.jpg), url(../img/tour-egypt/egypt-tour-03.jpg));
+}
+.hero-jp {
+    @include hero-indiv(url(../img/tour-07.jpg));
+}
+
+.body-jp {
+    @include body-indiv(url(../img/tour-japan/japan-tour-01.jpg), url(../img/tour-japan/japan-tour-02.jpg), url(../img/tour-japan/japan-tour-03.jpg));
+}
+.hero-can {
+    @include hero-indiv(url(../img/tour-08.jpg));
+}
+
+.body-can {
+    @include body-indiv(url(../img/tour-canada/canada-tour-01.jpg), url(../img/tour-canada/canada-tour-02.jpg), url(../img/tour-canada/canada-tour-03.jpg));
+}
+.hero-uae {
+    @include hero-indiv(url(../img/tour-09.jpg));
+}
+
+.body-uae {
+    @include body-indiv(url(../img/tour-uae/uae-tour-01.jpg), url(../img/tour-uae/uae-tour-02.jpg), url(../img/tour-uae/uae-tour-03.jpg));
+}

@@ -1,0 +1,91 @@
+.contact {
+    margin:0 auto;
+    max-width: 980px;
+    min-height: 537px;
+    margin-top: 90px;
+    .contact-title {
+        margin-top: 150px;
+font-family:'Proxima Nova Thin';
+font-weight: lighter;
+        .border-bottom {
+            width: 200px;
+            border-bottom: solid 2px $site-black;
+        }
+
+        h1 {
+            font-family: 'Proxima Nova Thin';
+        }
+    }
+
+    .contact-wrap {
+        display: flex;
+
+        .contact-left {
+            margin-bottom: 175px;
+            margin-top: 60px;
+            max-width: 400px;
+            height: 442px;
+ul {
+    padding-top:34px;
+    font-family: 'Gill Sans Nova';
+    font-size:18px;
+    width:250px;
+    list-style-type: none;
+   
+}
+           
+        }
+
+       
+        .contact-right {
+            font-family:'Gill Sans';
+              padding-left: 50px;
+                max-width: 980px;
+              padding-top:60px;
+                height: 200px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+        
+        
+                input {
+                    
+                    width: 100%;
+                    height: 60px;
+                    padding-left: 21px;
+                    margin-bottom: 21px;
+                }
+        
+                input:focus {
+                    outline: none;
+                }
+                textarea {
+                    width:100%;
+                    height:200px;
+                    resize:none;
+                    padding-left: 21px;
+                    
+                }
+               
+                a {
+
+                    font-size:16px;
+                    text-decoration: none;
+                    margin-top:20px;
+                    display:flex;
+                    width:167px;
+                    height:60px;
+                    background-color:$site-blue;
+                    color:$site-white;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    
+                }
+            }
+        }
+    }
+@media (max-width:980px) {
+    .contact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

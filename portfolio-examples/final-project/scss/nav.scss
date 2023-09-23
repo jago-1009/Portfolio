@@ -1,0 +1,23 @@
+.nav-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    nav {
+        @include nav-hold();
+    
+
+        
+                .ender {
+                    border-right: none;
+                }
+            }
+    
+}
+
+@media (max-width:975px) {
+    .nav-holder {
+        .logo {
+            margin-left:20px;
+        }
+    }
+}

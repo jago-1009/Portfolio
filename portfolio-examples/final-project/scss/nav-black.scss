@@ -1,0 +1,25 @@
+.nav-holder-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    nav {
+    
+        @include nav-hold($site-black, url(../img/logo-black.png));
+
+
+
+        .ender {
+            border-right: none;
+        }
+    }
+
+}
+
+@media (max-width:975px) {
+    .nav-holder-black {
+        .logo {
+            margin-left: 20px;
+        }
+    }
+}

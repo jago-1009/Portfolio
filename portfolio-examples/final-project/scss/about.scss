@@ -1,0 +1,92 @@
+.about {
+    max-width: 980px;
+        margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 180px;
+padding-top:90.5px;
+    .about-header {
+        
+        h1 {
+            font-size:60px;
+            margin-bottom: 2px;
+            font-family: 'Proxima Nova Thin';
+         font-weight:lighter;   
+        }
+
+        .border-bottom {
+            width: 171px;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 16px;
+        }
+        p {
+            font-family: 'Gill Sans';
+            font-size:16px;
+        }
+    }
+
+    .about-client-quotes {
+        margin-top: 107px;
+
+        .client-quote-title {
+            font-family: 'Proxima Nova Thin';
+            font-size:40px;
+            margin-bottom:-12.5px;
+            
+        }
+.client-border {
+    width:255px;
+    border-bottom: solid 2px #000;
+    margin-top:10px;
+}
+        .client-box {
+            margin-top:39px;
+            max-width: 722px;
+            display: flex;
+            position: relative;
+            margin-bottom: 37px;
+
+            .client-image {
+                width: 260px;
+                height: 150px;
+                overflow: hidden;
+                margin-right: 21px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .client-quote {
+                p {
+                    font-size:16px;
+                    font-family: 'Gill Sans';
+                }
+                max-width: 440px;
+                margin-bottom: 20px;
+            }
+
+            .client-name {
+                font-family:'Proxima Nova Thin';
+                font-size:20px;
+                color:$site-blue;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
+@media (max-width:975px) {
+    .about-header {
+        h1, .border-bottom, p {
+            margin-left: 20px;
+        }
+        
+    }
+        .about-client-quotes {
+            .client-quote-title, .client-border, .client-box {
+                margin-left:20px;
+            }
+        }
+}

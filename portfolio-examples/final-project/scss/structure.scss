@@ -1,0 +1,33 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px;
+}
+html,body {
+    height: 100%;
+    background-color: $site-white;
+}
+.site-wrapper{
+    max-width: $site-width;
+    height:1728px;
+    //min-height:1000px;
+    background-color:$site-white;
+    margin:0 auto;
+    
+}
+@font-face {
+    font-family: Gill Sans;
+    src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+    font-family: Proxima Nova Thin;
+    src: url(../css/fonts/Proxima-Nova-Thin.otf)
+}
