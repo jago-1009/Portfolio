@@ -31,3 +31,14 @@ html,body {
     font-family: Proxima Nova Thin;
     src: url(../css/fonts/Proxima-Nova-Thin.otf)
 }
+
+.go-back {
+div {
+    top:30px;
+    position:fixed;
+    float:left;
+    width:100px;
+    height:100px;
+    background-color: $page-green;
+}
+}

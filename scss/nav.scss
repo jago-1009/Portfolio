@@ -1,13 +1,19 @@
 nav {
+    height:50px;
     z-index: 11;
     padding-top:10px;
     display: flex;
-    justify-content: space-around;
-    background-color: black;
+    justify-content: flex-end;
+    background-color: $page-black;
+    border-bottom: 2px solid $page-green;
+    
     a {
-        color: white;
+        color: $page-green;
         font-family: OCRA;
         text-decoration: none;
+        padding: 20px;
+        border-left: 2px solid $page-green;
+        
     }
 }
 

@@ -1,5 +1,5 @@
 .work-header {
-color:white;
+color:$page-green;
 font-family: OCRA;
 text-align: center;
 padding-top:100px;
@@ -23,16 +23,17 @@ height:100vh;
        .card1 {
       
                 width: 400px;
-                height: 250px;
-                background-color: white;
+                height: 181px;
+                background-color: $page-green;
                 background-image: url(../img/portfolio-card-1.PNG);
                 background-size: contain;
+                background-repeat: no-repeat;
        }
        .card2 {
        
     width: 400px;
-        height: 250px;
-            background-color: white;
+        height: 181px;
+            background-color: $page-green;
        }
     }
     .work-line-2 {
@@ -45,16 +46,16 @@ height:100vh;
         .card1 {
        
         width: 400px;
-            height: 250px;
-                background-color: white;
+            height: 181px;
+                background-color: $page-green;
         
             }
         
             .card2 {
                
             width: 400px;
-                height: 250px;
-                background-color: white;
+                height: 181px;
+                background-color: $page-green;
             }
     }
 }

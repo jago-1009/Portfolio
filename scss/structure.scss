@@ -7,7 +7,7 @@ html {
     font-family: OCRA;
     scroll-behavior: smooth;
     overflow-y: scroll;
-    background-color: black;
+    background-color: $page-black;
 }
 
 * {
@@ -21,3 +21,4 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
+
